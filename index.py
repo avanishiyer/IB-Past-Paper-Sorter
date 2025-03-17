@@ -57,8 +57,9 @@ def search(name, subjectsArray):
         
     return False
 
-# Example usage:
-root_directory = "/Users/avanishiyer/Downloads/home/ptib/IB PAST PAPERS - YEAR"  # Replace with the actual path
+root_directory = "~/Insert/Path/here"  # Replace with the actual path
+
+# Replace with subjects you want to keep
 subjects_to_keep = [
     r"^english\_a\_.*",
     r"^french\_b.*",
